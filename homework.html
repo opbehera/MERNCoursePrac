@@ -26,113 +26,120 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
+        .skills-card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px 0;
+        }
     </style>
 </head>
 <body class="bg-light">
+
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-success">
         <div class="container-fluid">
-          <a href="" class="navbar-brand text-white">About Me</a>
-          <button
-            class="navbar-toggler bg-secondary"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <a href="#" class="navbar-brand text-white">About Me</a>
+          <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>                
+                <a class="nav-link active text-light" href="#">Home</a>                
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">About me</a>
+                <a class="nav-link text-light" href="#">About Me</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
-<div class="container mt-5">
-    <div class="row">
-        <!-- Left Side - Profile -->
-        <div class="col-md-4">
-            <div class="profile-card shadow">
-                <img src="Omprasad.png" alt="Your Image">
-                <h3>Your Name</h3>
-                <p>UI/UX Designer | Developer</p>
-                <p>Email: omprasadorissa@gmail.com</p>
-                <p>Residing Location: Gandhidham , Gujarat , India</p>
-                <p>Birth Location: Bhubaneshwar , Odisha , India</p>
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Left Side - Profile -->
+            <div class="col-md-4">
+                <div class="profile-card shadow">
+                    <img src="Omprasad.png" alt="Your Image">
+                    <h3>Your Name</h3>
+                    <p>UI/UX Designer | Developer</p>
+                    <p>Email: omprasadorissa@gmail.com</p>
+                    <p>Residing Location: Gandhidham, Gujarat, India</p>
+                    <p>Birth Location: Bhubaneshwar, Odisha, India</p>
+                </div>
             </div>
-        </div>
 
-        <!-- Right Side - Skills Grid -->
-        <div class="col-md-8">
-            <div class="row g-3">
-                <div class="col-md-6">
-                    <div class="skills-card">
-                        <h4>UI/UX Design</h4>
-                        <p>Prototyping, Wireframing, Figma, Adobe After Effects</p>
+            <!-- Right Side - Skills Grid -->
+            <div class="col-md-8">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="skills-card">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1828/1828884.png" alt="UI/UX">
+                            <h4>UI/UX Design</h4>
+                            <p>Prototyping, Wireframing, Figma, Adobe After Effects</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skills-card">
-                        <h4>Front-End Development</h4>
-                        <p>HTML, CSS, Bootstrap, JavaScript</p>
+                    <div class="col-md-6">
+                        <div class="skills-card">
+                            <img src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="Front-End">
+                            <h4>Front-End Development</h4>
+                            <p>HTML, CSS, Bootstrap, JavaScript</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skills-card">
-                        <h4>Programming Languages</h4>
-                        <p>Python, C++, Java</p>
+                    <div class="col-md-6">
+                        <div class="skills-card">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1822/1822899.png" alt="Programming">
+                            <h4>Programming Languages</h4>
+                            <p>Python, C++, Java</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skills-card">
-                        <h4>Extra-Curricular</h4>
-                        <p>Pianist (Trinity College Grade Initial & 1 Certified), Sketching</p>
+                    <div class="col-md-6">
+                        <div class="skills-card">
+                            <img src="https://cdn-icons-png.flaticon.com/128/3082/3082020.png" alt="Extra">
+                            <h4>Extra-Curricular</h4>
+                            <p>Pianist (Trinity College Grade Initial & 1 Certified), Sketching</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skills-card">
-                        <h4>Machine Learning</h4>
-                        <p>Python, TensorFlow, OpenCV</p>
+                    <div class="col-md-6">
+                        <div class="skills-card">
+                            <img src="data:image/jpeg;base64,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" alt="Machine Learning">
+                            <h4>Machine Learning</h4>
+                            <p>Python, TensorFlow, OpenCV</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skills-card">
-                        <h4>Problem Solving</h4>
-                        <p>Data Structures, Algorithms, Competitive Programming</p>
+                    <div class="col-md-6">
+                        <div class="skills-card">
+                            <img src="https://cdn-icons-png.flaticon.com/128/2534/2534551.png" alt="Problem Solving">
+                            <h4>Problem Solving</h4>
+                            <p>Data Structures, Algorithms, Competitive Programming</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<footer class="bg-warning-subtle p-2 mt-1">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2">
-          <h2>My Address</h2>
-          <p>Plot - 58B , Gandhidham , Gujarat , India</p>
+    <!-- Footer -->
+    <footer class="bg-warning-subtle p-3 mt-3">
+        <div class="container footer-content">
+            <div>
+                <h5>My Address</h5>
+                <p>Plot - 58B, Gandhidham, Gujarat, India</p>
+            </div>
+            <div>
+                <h5>My Contact</h5>
+                <p><a href="#" class="text-decoration-none text-dark">9x160 xxxxx</a></p>
+            </div>
         </div>
-        <div class="col-md-2">
-          <h2>My Contact</h2>
-          <p>
-            <a href="#" class="text-decoration-none text-dark"
-              >9x160 xxxxx</a
-            >
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
